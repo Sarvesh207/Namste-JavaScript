@@ -1,47 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
 <style>
-
-
-    .grandParent{
-      background-color: red;
-      height: 400px;
-      width: 400px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .parent{
-      background-color: green;
-      height: 300px;
-      width: 300px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .child{
-      background-color: blue;
-      height: 200px;
-      width: 200px;
-    }
+  div {
+    min-width: 100px;
+    min-height: 100px;
+    padding: 40px;
+    border: 1px solid black;
+  }
 </style>
+
 <body>
-      <h1>Bubbing & Capturing</h1>
+  <h1>Bubbing & Capturing</h1>
 
-      <main>
-      <div class="grandParent">
-      grandParent
-        <div class="parent">
-        Parent
-          <div class="child">Child</div>
-        </div>
-      </div>
 
-      </main>
+  <div class="grandParent">
+
+    <div class="parent">
+
+      <div class="child"> </div>
+    </div>
+
+  </div>
+
+
+    <script src="./script.js"></script>
 </body>
+
 </html>
