@@ -34,32 +34,32 @@
 
 //  Object create
 
-// const person1 = {
-//     "name":"sarvesh"
-// }
+const person1 = {
+    "name":"sarvesh"
+}
 
-// const person2 = Object.create(person1)
+const person2 = Object.create(person1)
 
-// console.log(person2.name)
+console.log(person2)
 
 
 
 //  class
 
-class Person {
-    constructor(firstname, lastname){
-        this.firstname = firstname,
-        this.lastname = lastname
-    }
+// class Person {
+//     constructor(firstname, lastname){
+//         this.firstname = firstname,
+//         this.lastname = lastname
+//     }
 
-    greet(){
-        console.log(`Hello I am ${this.firstname} ${this.lastname}`)
-    }
-}
+//     greet(){
+//         console.log(`Hello I am ${this.firstname} ${this.lastname}`)
+//     }
+// }
 
-const p1 = new Person("sarvesh", "gaynar");
+// const p1 = new Person("sarvesh", "gaynar");
 
-console.log(p1)
+// console.log(p1)
 
 
 

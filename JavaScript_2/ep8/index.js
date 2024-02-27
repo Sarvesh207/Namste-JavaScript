@@ -1,5 +1,9 @@
-console.log("Start")
+
+
+
+let a = 20;
+console.log(a);
+ var c = 10;
+ console.log(c)
+const b = 25;
 console.log(b)
-// console.log(a)
-let a = 10;
-var b = 20;
