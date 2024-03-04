@@ -72,3 +72,5 @@ console.log(person2)
 4) Object.Create Method
 5) Classes in JS
  */
+
+ let obj1 = {}
