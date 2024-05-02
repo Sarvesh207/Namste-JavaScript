@@ -22,20 +22,22 @@
     
 // })
 
-const promiseThree = new Promise(function(resolve, reject) {
-    setTimeout(function(){
-        resolve({name:"sarvesh",role:"frontend developer"})
-    })
-})
+// const promiseThree = new Promise(function(resolve, reject) {
+//     setTimeout(function(){
+//         resolve({name:"sarvesh",role:"frontend developer"})
+//     })
+// })
 
 // promiseThree.then(function(obj) {
 //     console.log(obj)
 //     return obj.name;
-// }).then
+// }).then(function(res){
+//     console.log(res)
+// })
 
 
 // const promiseFour = new Promise(function(resolve, reject) {
-//         let flag = false;
+//         let flag = true;
 //         if(!flag){
 //             resolve({name:"sarveh", role:"frontend"})
 //         } else {
@@ -59,27 +61,29 @@ const promiseThree = new Promise(function(resolve, reject) {
 // })
 
 
-const promiseFive = new Promise(function(resolve,reject) {
-    setTimeout(function() {
-        let flag  = true;
+// const promiseFive = new Promise(function(resolve,reject) {
+//     setTimeout(function() {
+//         let flag  = false;
 
-        if(flag){
-            resolve({name:'sarvesh'})
-        } else {
-            reject("ERROR: Something went wrong")
-        }
-    },1000)
-})
+//         if(flag){
+//             resolve({name:'sarvesh'})
+//         } else {
+//             reject("ERROR: Something went wrong")
+//         }
+//     },1000)
+// })
 
-async function asyncHandler() {
-    try {
-        const user = await promiseFive;
+// async function asyncHandler() {
+//     try {
+//         const user = await promiseFive;
         
-        console.log(user)
-    } catch (error) {
-        console.log(error.message)
-    }
-}
+//         console.log(user)
+//     } catch (error) {
+//         console.log("Error ",error)
+//     }
+// }
+
+// asyncHandler()
 
 
 
